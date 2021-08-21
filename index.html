@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+    
+    <title>Congraduation ❣</title>
+    <style>
+        *{
+            font-family: 'Nanum Pen Script', cursive;
+        }
+        body{
+            background-color: #2d0c0c;
+        }
+        .envelope {
+            background-image: url('https://64.media.tumblr.com/f0d1a47676e929c834a3f530de17c6b8/80dea77215e7364f-fe/s540x810/9a7b65374f7486d2c6849c1c39cf818afe888920.gifv');
+            background-size: cover;
+            background-position: center;
+            width: 480px;
+            height: 380px;
+            margin: 50px auto 0px auto;
+            cursor: pointer;
+        }
+        .envelope-msg {
+            color: rgb(248, 202, 242);
+            text-align: center;
+        }
+        .letter-close {
+            display: block;
+        }
+        .letter-open {
+            display: none;
+        }
+        .word{
+            text-align: center;
+            vertical-align: baseline;  
+            font-size: 100%;
+            font-size-adjust: 0.5;
+        }
+        .jarujaru {
+            width: 200px;
+            height: 200px;
+            background-image: url('https://miro.medium.com/fit/c/262/262/1*XDRazO4xfDOGCraUSI1Aqg.jpeg');
+            background-size: cover;
+            background-position: center;
+            background-color: white;
+            margin: 100px auto 0px auto;
+            border-radius: 100px;
+            border: 5px solid white;
+            box-shadow: 0px 0px 10px 0px white;
+        }
+        h1 {
+            text-align: center;
+            color: white;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        .messagebox {
+            width: 400px;
+            margin: auto;
+            font-size: 30px;
+            line-height: 40px;
+           background-image: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm218batch3-ning-13.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=77a44fe76d5fc954f7d367ce3d104586');
+            color: #455F89;
+            padding: 30px;
+            box-shadow: 0px 0px 10px 0px white;
+        }
+        .felix {
+            width: 200px;
+            height: 200px;
+            background-image: url('https://64.media.tumblr.com/480fe1419ea31f0577df82bc82b5f060/624a99f6c7e5df4f-84/s640x960/03d9eec5e4b3dc0f6957946aa84b54ee4a53888e.jpg');
+            background-size: cover;
+            background-position: center;
+            background-color: white;
+            margin: 50px auto 50px auto;
+            border-radius: 100px;
+            border: 5px solid white;
+            box-shadow: 0px 0px 10px 0px white;
+        }
+        .soobin {
+            width: 200px;
+            height: 200px;
+            background-image: url('https://64.media.tumblr.com/2b4ad13d8591954eeb296431e7308ebf/aea1360f20bdf492-77/s500x750/ea97b0c94ff93c0fd65f873e9e28693877d7e697.gifv');
+            background-size: cover;
+            background-position: center;
+            background-color: white;
+            margin: 50px auto 50px auto;
+            border-radius: 100px;
+            border: 5px solid white;
+            box-shadow: 0px 0px 10px 0px white;
+        }
+        .joshua {
+            width: 200px;
+            height: 200px;
+            background-image: url('https://64.media.tumblr.com/83c43110cb3790f4b59f0048528e326a/97e153d7688ccdde-9b/s1280x1920/69945bfc5d1f5a17899959371d34d45caf427c4e.jpg');
+            background-size: cover;
+            background-position: center;
+            background-color: white;
+            margin: 50px auto 50px auto;
+            border-radius: 100px;
+            border: 5px solid white;
+            box-shadow: 0px 0px 10px 0px white;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: 20px;
+        }
+        @media screen and (max-width: 760px) {
+            .messagebox {
+                width: 300px;
+                font-size: 20px;
+                line-height: 30px;
+                padding: 20px;
+            }
+            h1 {
+                font-size: 28px;
+            }
+            .envelope {
+                margin: 150px auto 0px auto;
+                background-size: auto;
+            }
+            .felix{
+                width: 100px;
+                height: 100px;
+            }
+            .joshua{
+                width: 100px;
+                height: 100px;
+            }
+            .soobin{
+                width: 100px;
+                height: 100px;
+            }
+            .word{
+                font-size-adjust: 0.5;
+            }
+            
+    </style>
+    <script>
+        function open_letter() {
+            document.getElementsByClassName("letter-close")[0].style.display = 'none'
+            document.getElementsByClassName("letter-open")[0].style.display = 'block'
+             }
+        function go_haw() {
+            alert('flashback dikit wkwk lucu')
+            window.location.href="https://drive.google.com/file/d/1i6jU7kKsgzQpwIl6rvgA8YfQfftK6WpG/view?usp=sharing"
+        }
+        function go_svt() {
+            alert('yg wisokto belum ada jadi ini dulu aja ya wkwk')
+            window.location.href="https://www.youtube.com/watch?v=Mw6FR86_gek"
+        }
+        function go_felix() {
+            alert('hehehe')
+            window.location.href="https://tinderkit.com/generator/downloads/profile/2021-08-21/ff6f2787b1b87329b6bb2cf81f90a59f.png"
+        }
+        function go_sapi() {
+            alert('ayo jalan jalan lagi sama nginep bareng2 sebelum kamu pergiiii')
+            window.location.href="https://youtu.be/miGVMLFvND0"
+        }
+    </script>
+    <script src="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/global/confetti.js"></script>
+</head>
+<body>
+    <div class="letter-close">
+        <div class="envelope" onclick="open_letter()"></div>
+    </div>
+    <div class="letter-open">        
+        <div class="jarujaru" onclick="go_haw()"></div>
+        <br/><br/><br/><br/>
+        <div id="note_container" style="display: block;">
+            <div class="word">
+                <img src="http://farm66.staticflickr.com/65535/49216178623_33629e5fcc_t.jpg" style="transform: rotate(-7deg); -ms-transform: rotate(-6deg); -webkit-transform: rotate(-6deg);">
+                <img src="http://farm7.staticflickr.com/6104/6285786161_52df264a50_t.jpg" style="transform: rotate(-6deg); -ms-transform: rotate(6deg); -webkit-transform: rotate(8deg);">
+                <img src="http://farm8.staticflickr.com/7907/46860627944_1bc10662e8_t.jpg" style="transform: rotate(-2deg); -ms-transform: rotate(-4deg); -webkit-transform: rotate(0deg);">
+                <img src="http://farm3.staticflickr.com/2760/4259741824_803d82cb98_t.jpg" style="transform: rotate(-1deg); -ms-transform: rotate(-5deg); -webkit-transform: rotate(-10deg);">
+                <img src="http://farm3.staticflickr.com/2724/4353416955_99196ec945_t.jpg" style="transform: rotate(-9deg); -ms-transform: rotate(8deg); -webkit-transform: rotate(-7deg);">
+                <img src="http://farm6.staticflickr.com/5143/5869648637_1632449515_t.jpg" style="transform: rotate(7deg); -ms-transform: rotate(-9deg); -webkit-transform: rotate(-2deg);">
+                <img src="http://farm66.staticflickr.com/65535/50898045791_119dd34209_t.jpg" style="transform: rotate(9deg); -ms-transform: rotate(6deg); -webkit-transform: rotate(-2deg);">
+                <img src="http://farm9.staticflickr.com/8163/7604523176_eb930296e6_t.jpg" style="transform: rotate(-4deg); -ms-transform: rotate(7deg); -webkit-transform: rotate(6deg);">
+                <img src="http://farm6.staticflickr.com/5329/7076781157_da369c3271_t.jpg" style="transform: rotate(-9deg); -ms-transform: rotate(-9deg); -webkit-transform: rotate(-2deg);">
+                <img src="http://farm5.staticflickr.com/4095/4888835616_29243664a4_t.jpg" style="transform: rotate(-2deg); -ms-transform: rotate(1deg); -webkit-transform: rotate(-9deg);">
+                <img src="http://farm2.staticflickr.com/1195/4730744998_3d20118be5_t.jpg" style="transform: rotate(9deg); -ms-transform: rotate(-1deg); -webkit-transform: rotate(3deg);">
+                <img src="http://farm66.staticflickr.com/65535/49349916387_08f87b9ed9_t.jpg" style="transform: rotate(0deg); -ms-transform: rotate(-7deg); -webkit-transform: rotate(8deg);">
+                <img src="http://farm66.staticflickr.com/65535/48362784556_66a676110d_t.jpg" style="transform: rotate(5deg); -ms-transform: rotate(3deg); -webkit-transform: rotate(10deg);">
+            </div>
+        </div>
+            <br class="clear">
+        <h1>selamat euy dah lulus !</h1>
+        <div class="messagebox">
+            buat Elis ! <br/>
+            <br/>
+            selamat hari lebaran mohon maap lahir batin<br/>
+            gadeng hehe <br/>
+            selamat udh berees, semoga jalan kedepannya jg selalu dilancarkan !<br/>
+            semoga dapet duit banyak biar kita bisa minta traktir jg hehe <br/>
+            karena aku kere hadiahnya ini aja ya <3 <br/>
+            <br/>
+            sincerely, <br/>
+            dhira <br/>
+            <br/>
+            p．s．coba pencet2 siapa tau nemu apaa gt</br>
+        </div>
+        <div class="grid-container">
+            <div class="grid-child felix" onclick="go_felix()">                
+            </div>
+
+            <div class="grid-child soobin" onclick="go_sapi()">
+            </div>
+
+            <div class="grid-child joshua" onclick="go_svt()">
+            </div>
+
+        </div>
+    </div>
+    
+</body>
+</html>
